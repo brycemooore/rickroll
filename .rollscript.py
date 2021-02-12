@@ -7,8 +7,8 @@ import smtplib
 url = 'https://www.tomorrowtides.com/saturdays-are-for-the-boys.html'
 
 reciever = sys.argv[1]
-sender_email = 'email'
-sender_password ='email password'
+sender_email = 'brycemooore@gmail.com'
+sender_password ='legowars'
   
 # creates SMTP session 
 email = smtplib.SMTP('smtp.gmail.com', 587) 
